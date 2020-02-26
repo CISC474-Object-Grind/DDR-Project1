@@ -12,7 +12,22 @@
 </head>
 
 <body>
-
+	<div id="BackgroundScene">
+		<div id="DanceScoreboard">
+			<div id="GameStopped"><button id="StartBtn" class="btnStyle">Begin Game</button>
+				<div class="Status">Click Begin Game to start</div>
+			</div>
+			<div id="GameRunning"><button id="StopBtn" class="btnStyle">Stop Game</button>
+				<div id="Status" class="Status"></div>
+			</div>
+			<div id="dancePoints" class="Points">Points Earned: <div class="OutputText" id="CorrectCount">0</div>
+			</div>
+		</div>
+		<div id="DanceFloor">
+			<div id="StaticArrows"></div>
+			<div id="MovingArrows"></div>
+		</div>
+	</div>
 </body>
 
 </html>
