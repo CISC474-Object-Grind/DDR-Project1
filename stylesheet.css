@@ -4,6 +4,6 @@
 	margin:0;
 	padding:0;
 	overflow: hidden;
-	background-image: url('/DDR-Project1/images/clubBackground.jpg');
+	background-image: url('../images/clubBackground.jpg');
 	background-size: contain;
 }
