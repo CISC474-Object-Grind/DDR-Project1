@@ -3,54 +3,54 @@
 	height: 560px;
 	margin:0;
 	padding:0;
-	overflow: hidden;
-	background-image: url(/DDR-Project1/images/club\ background.jpg);
-	background-size: contain;
+	/* overflow: hidden; */
+	background-image: url('../images/clubbackground.jpg');
+    background-size: contain;
+    position: relative;
+    text-align: center;
 }
-<<<<<<< HEAD
 
-#arrdown{
-    width: 50px;
-    height: 50px;
+#DownArrow{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-image: url('../images/arrdown.png');
+    background-size: contain;
+    position: absolute;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+#UpArrow{
+    width: 100px;
+    height: 100px;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url(/DDR-Project/images/arrdown.jpg);
+    background-image: url('../images/arrup.png');
     background-size: contain;
-    position: absolute
+    position: absolute;
 }
 
-#arrup{
-    width: 50px;
-    height: 50px;
+#LeftArrow{
+    width: 100px;
+    height: 100px;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-image: url(/DDR-Project/images/arrdown.jpg);
+    /* overflow: hidden; */
+    background-image: url('../images/arrleft.png');
     background-size: contain;
-    position: absolute
+    position: absolute;
 }
 
-#arrleft{
-    width: 50px;
-    height: 50px;
+#RightArrow{
+    width: 100px;
+    height: 100px;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-image: url(/DDR-Project/images/arrdown.jpg);
+    /* overflow: hidden; */
+    background-image: url('../images/arrright.png');
     background-size: contain;
-    position: absolute
+    position: absolute;
 }
-
-#arrright{
-    width: 50px;
-    height: 50px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-image: url(/DDR-Project/images/arrdown.jpg);
-    background-size: contain;
-    position: absolute
-}
-=======
->>>>>>> 37f45af17c4b528b74eb6a121dd3ce037f686eb7
