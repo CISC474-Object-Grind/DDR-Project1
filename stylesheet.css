@@ -1,10 +1,10 @@
 #BackgroundScene{
-	width: 980px;    
-	height: 560px;
+	width: 1080px;    
+	height: 600px;
 	margin:0;
 	padding:0;
-	/*background-image: url('/DDR-Project1/images/clubbackground.jpg');*/
-	 background-image: url('../images/clubbackground.jpg');
+    background-image: url('./images/clubbackground.jpg');
+    background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     text-align: center;
@@ -13,8 +13,7 @@
 #DownArrow{
     margin: 0;
     padding: 0;
-	background-image: url('../images/arrdown.png');
-	/*background-image: url('/DDR-Project1/images/arrdown.png');*/
+	background-image: url('./images/arrdown.png');
     background-size: contain;
     position: absolute;
     left: 366px;
@@ -28,8 +27,7 @@
     left: 549px;
     margin: 0;
     padding: 0;
-	background-image: url('../images/arrup.png');
-	/*background-image: url('/DDR-Project1/images/arrup.png');*/
+	background-image: url('./images/arrup.png');
     background-size: contain;
     position: absolute;
 }
@@ -40,8 +38,7 @@
     left: 183px;
     margin: 0;
     padding: 0;
-	background-image: url('../images/arrleft.png');
-	/*background-image: url('/DDR-Project1/images/arrleft.png');*/
+	background-image: url('./images/arrleft.png');
     background-size: contain;
     position: absolute;
 }
@@ -52,8 +49,7 @@
     left: 732px;
     margin: 0;
     padding: 0;
-	background-image: url('../images/arrright.png');
-	/*background-image: url('/DDR-Project1/images/arrright.png');*/
+	background-image: url('./images/arrright.png');
     background-size: contain;
     position: absolute;
 }
@@ -65,7 +61,28 @@
 	font-family: "Arial", Impact, Charcoal, sans-serif;
 	font-weight: bold;
 	font-size:20px;
-	color: #ffffff;
+    color: #ffffff;
 	padding: 5px 30px;
+	margin:8px 70px;
+}
+
+#StartBtn{
+    position: initial;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+#StopBtn{
+    position: fixed;
+    left: -50px;
+    border-radius: 2px;
+	border: medium solid #000000;
+	background-color:rgb(92, 250, 246);
+	font-family: "Arial", Impact, Charcoal, sans-serif;
+	font-weight: bold;
+	font-size:17px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black;
+	padding: 2.5px 15px;
 	margin:8px 70px;
 }
