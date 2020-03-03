@@ -17,6 +17,7 @@ var DDRUI = function () {
 		$('#StopBtn').on('click', function () {
 			$('#GameStopped').show();
 			$('#GameRunning').hide();
+			$('#DanceFloor').hide();
 			self.running = false;
 			// self.game.reset();
 			// self.refreshView();

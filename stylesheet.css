@@ -3,8 +3,8 @@
 	height: 560px;
 	margin:0;
 	padding:0;
-	background-image: url('/DDR-Project1/images/clubbackground.jpg');
-	/* background-image: url('../images/clubbackground.jpg'); */
+	/* background-image: url('/DDR-Project1/images/clubbackground.jpg'); */
+	background-image: url('./images/clubbackground.jpg');
     background-size: contain;
     position: relative;
     text-align: center;
@@ -13,8 +13,8 @@
 #DownArrow{
     margin: 0;
     padding: 0;
-	background-image: url('../images/arrdown.png');
-	background-image: url('/DDR-Project1/images/arrdown.png');
+	background-image: url('./images/arrdown.png');
+	/* background-image: url('/DDR-Project1/images/arrdown.png'); */
     background-size: contain;
     position: absolute;
     left: 366px;
@@ -28,7 +28,7 @@
     left: 549px;
     margin: 0;
     padding: 0;
-	background-image: url('../images/arrup.png');
+	background-image: url('./images/arrup.png');
 	background-image: url('/DDR-Project1/images/arrup.png');
     background-size: contain;
     position: absolute;
@@ -40,7 +40,7 @@
     left: 183px;
     margin: 0;
     padding: 0;
-	background-image: url('../images/arrleft.png');
+	background-image: url('./images/arrleft.png');
 	background-image: url('/DDR-Project1/images/arrleft.png');
     background-size: contain;
     position: absolute;
@@ -52,7 +52,7 @@
     left: 732px;
     margin: 0;
     padding: 0;
-	background-image: url('../images/arrright.png');
+	background-image: url('./images/arrright.png');
 	background-image: url('/DDR-Project1/images/arrright.png');
     background-size: contain;
     position: absolute;
