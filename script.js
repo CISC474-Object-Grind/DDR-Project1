@@ -17,8 +17,13 @@ var DDRUI = function () {
 		$('#StopBtn').on('click', function () {
 			$('#GameStopped').show();
 			$('#GameRunning').hide();
+<<<<<<< HEAD
 			$('#DanceFloor').hide();
 			self.running = false;
+=======
+            self.running = false;
+            $('#DanceFloor').hide();
+>>>>>>> ea989f876cb578247b28e2e731593f2b2e312eee
 			// self.game.reset();
 			// self.refreshView();
 		});
