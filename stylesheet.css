@@ -29,7 +29,7 @@
     margin: 0;
     padding: 0;
 	background-image: url('../images/arrup.png');
-	background-image: url('/DDR-Project1/images/arrup.png.png');
+	background-image: url('/DDR-Project1/images/arrup.png');
     background-size: contain;
     position: absolute;
 }
