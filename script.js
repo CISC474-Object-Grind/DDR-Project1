@@ -10,7 +10,8 @@ var DDRUI = function () {
 
 		$('#StartBtn').on('click', function () {
 			$('#GameStopped').hide();
-			$('#GameRunning').show();
+            $('#GameRunning').show();
+            $('#DanceFloor').show();
 			self.running = true;
 		});
 		$('#StopBtn').on('click', function () {
