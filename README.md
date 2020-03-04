@@ -20,3 +20,12 @@
 * Type "git pull" to pull BEFORE you commit so you make sure you don't overwrite anything.
 * Type "git push" and follow the prompts.
 * You're all set!
+
+
+# Task List
+
+* Make moving arrows - guys
+* collisions - guys
+* music store - girls
+* beat/arrow syncing - both (girls begin)
+* fixing background image (eventually) - girls
