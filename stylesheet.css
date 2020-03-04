@@ -73,12 +73,8 @@
 }
 
 #StartBtn{
-<<<<<<< HEAD
 	position: initial;
 	text-align: center;
-=======
-    position: initial;
->>>>>>> a32c0cc7d17594365bd2be78af8df13a1fc4b34f
     text-shadow: 2px 2px 4px black;
 }
 
