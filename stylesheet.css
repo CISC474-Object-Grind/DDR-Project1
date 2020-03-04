@@ -94,7 +94,7 @@
 #DownArrow{
     margin: 0;
     padding: 0;
-	background-image: url('./images/arrdown.png');
+	background-image: url('./images/downinverse.png');
     background-size: contain;
     position: absolute;
     opacity: 80%;
@@ -103,7 +103,7 @@
 #UpArrow{
     margin: 0;
     padding: 0;
-	background-image: url('./images/arrup.png');
+	background-image: url('./images/upinverse.png');
     background-size: contain;
     position: absolute;
     opacity: 80%;
@@ -112,7 +112,7 @@
 #LeftArrow{
     margin: 0;
     padding: 0;
-	background-image: url('./images/arrleft.png');
+	background-image: url('./images/leftinverse.png');
     background-size: contain;
     position: absolute;
     opacity: 80%;
@@ -121,7 +121,7 @@
 #RightArrow{
     margin: 0;
     padding: 0;
-	background-image: url('./images/arrright.png');
+	background-image: url('./images/rightinverse.png');
     background-size: contain;
     position: absolute;
     opacity: 80%;
