@@ -29,6 +29,7 @@
     margin: 0;
     padding: 0;
 	background-image: url('./images/arrup.png');
+
     background-size: contain;
     position: absolute;
     opacity: 80%;
