@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-#DownArrow{
+#SDownArrow{
     margin: 0;
     padding: 0;
 	background-image: url('./images/arrdown.png');
@@ -20,9 +20,10 @@
     left: 366px;
     height: 100px;
     width: 100px;
+    opacity: 80%;
 }
 
-#UpArrow{
+#SUpArrow{
     width: 100px;
     height: 100px;
     left: 549px;
@@ -32,9 +33,10 @@
 	background-image: url('/DDR-Project1/images/arrup.png');
     background-size: contain;
     position: absolute;
+    opacity: 80%;
 }
 
-#LeftArrow{
+#SLeftArrow{
     width: 100px;
     height: 100px;
     left: 183px;
@@ -43,9 +45,10 @@
 	background-image: url('./images/arrleft.png');
     background-size: contain;
     position: absolute;
+    opacity: 80%;
 }
 
-#RightArrow{
+#SRightArrow{
     width: 100px;
     height: 100px;
     left: 732px;
@@ -54,6 +57,7 @@
 	background-image: url('./images/arrright.png');
     background-size: contain;
     position: absolute;
+    opacity: 80%;
 }
 
 .btnStyle {
@@ -69,8 +73,12 @@
 }
 
 #StartBtn{
+<<<<<<< HEAD
 	position: initial;
 	text-align: center;
+=======
+    position: initial;
+>>>>>>> a32c0cc7d17594365bd2be78af8df13a1fc4b34f
     text-shadow: 2px 2px 4px black;
 }
 
@@ -87,4 +95,40 @@
     text-shadow: 2px 2px 4px black;
 	padding: 2.5px 15px;
 	margin:8px 70px;
+}
+
+#DownArrow{
+    margin: 0;
+    padding: 0;
+	background-image: url('./images/arrdown.png');
+    background-size: contain;
+    position: absolute;
+    opacity: 80%;
+}
+
+#UpArrow{
+    margin: 0;
+    padding: 0;
+	background-image: url('./images/arrup.png');
+    background-size: contain;
+    position: absolute;
+    opacity: 80%;
+}
+
+#LeftArrow{
+    margin: 0;
+    padding: 0;
+	background-image: url('./images/arrleft.png');
+    background-size: contain;
+    position: absolute;
+    opacity: 80%;
+}
+
+#RightArrow{
+    margin: 0;
+    padding: 0;
+	background-image: url('./images/arrright.png');
+    background-size: contain;
+    position: absolute;
+    opacity: 80%;
 }
