@@ -1,9 +1,9 @@
 #BackgroundScene{
-	width: 980px;    
+	width: 950px;    
 	height: 560px;
 	margin:0;
 	padding:0;
 	overflow: hidden;
-	background-image: url(/DDR-Project1/images/club\ background.jpg);
+	background-image: url('../images/clubbackground.jpg');
 	background-size: contain;
 }
