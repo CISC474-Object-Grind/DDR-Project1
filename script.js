@@ -23,5 +23,6 @@ var DDRUI = function () {
 			// self.refreshView();
 		});
 	};
+
 	this.initialize();
 }

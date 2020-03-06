@@ -13,10 +13,11 @@
 #SDownArrow{
     margin: 0;
     padding: 0;
-	background-image: url('./images/arrdown.png');
+	background-image: url('./images/down.png');
     background-size: contain;
     position: absolute;
-    left: 366px;
+    left: 360px;
+    top:75%;
     height: 100px;
     width: 100px;
     opacity: 80%;
@@ -26,9 +27,10 @@
     width: 100px;
     height: 100px;
     left: 549px;
+    top:75%;
     margin: 0;
     padding: 0;
-	background-image: url('./images/arrup.png');
+	background-image: url('./images/up.png');
 
     background-size: contain;
     position: absolute;
@@ -39,9 +41,10 @@
     width: 100px;
     height: 100px;
     left: 183px;
+    top:75%;
     margin: 0;
     padding: 0;
-	background-image: url('./images/arrleft.png');
+	background-image: url('./images/left.png');
     background-size: contain;
     position: absolute;
     opacity: 80%;
@@ -51,9 +54,10 @@
     width: 100px;
     height: 100px;
     left: 732px;
+    top:75%;
     margin: 0;
     padding: 0;
-	background-image: url('./images/arrright.png');
+	background-image: url('./images/right.png');
     background-size: contain;
     position: absolute;
     opacity: 80%;
@@ -89,40 +93,4 @@
     text-shadow: 2px 2px 4px black;
 	padding: 2.5px 15px;
 	margin:8px 70px;
-}
-
-#DownArrow{
-    margin: 0;
-    padding: 0;
-	background-image: url('./images/downinverse.png');
-    background-size: contain;
-    position: absolute;
-    opacity: 80%;
-}
-
-#UpArrow{
-    margin: 0;
-    padding: 0;
-	background-image: url('./images/upinverse.png');
-    background-size: contain;
-    position: absolute;
-    opacity: 80%;
-}
-
-#LeftArrow{
-    margin: 0;
-    padding: 0;
-	background-image: url('./images/leftinverse.png');
-    background-size: contain;
-    position: absolute;
-    opacity: 80%;
-}
-
-#RightArrow{
-    margin: 0;
-    padding: 0;
-	background-image: url('./images/rightinverse.png');
-    background-size: contain;
-    position: absolute;
-    opacity: 80%;
 }
