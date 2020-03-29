@@ -9,6 +9,7 @@ var DDRUI = function () {
 	// Frame increasing
 	var frame = 0;
 
+	var song = new Audio("./Bad Apple!!.wav");
 	// Determines the speed of notes
 	var arrowSpawnRate = 40;
 
@@ -26,6 +27,10 @@ var DDRUI = function () {
 			$('#DanceFloor').show();
 			self.running = true;
 			gameStarted = true;
+			
+			if (self.running){
+				song.play();
+			}	
 		});
 		
 		// code below controls stopping the game with space bar
@@ -35,6 +40,9 @@ var DDRUI = function () {
 				$('#GameRunning').hide();
 				$('#DanceFloor').hide();
 				self.running = false;
+				if (self.running == false){
+					song.pause();
+				}
 			}
 		});
 
