@@ -1,44 +1,47 @@
 #BackgroundScene{
-	width: 1080px;    
-	height: 600px;
-	margin:0;
-	padding:0;
+	width: 1150px;    
+	height: 500px;
+	margin: 0 auto;
+    padding: 0;
     background-image: url('./images/clubbackground.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    position: relative;
-    text-align: center;
+	position: absolute;
 }
 
 #SDownArrow{
     margin: 0;
     padding: 0;
 	background-image: url('./images/arrdown.png');
+	/* background-image: url('/DDR-Project1/images/arrdown.png'); */
     background-size: contain;
-    position: absolute;
-    left: 366px;
-    height: 100px;
-    width: 100px;
+	position: absolute;
+	top: 390px;
+	left: 306px;
+    height: 70px;
+    width: 70px;
     opacity: 80%;
 }
 
 #SUpArrow{
-    width: 100px;
-    height: 100px;
-    left: 549px;
+    width: 70px;
+	height: 70px;
+	top: 390px;
+    left: 499px;
     margin: 0;
     padding: 0;
 	background-image: url('./images/arrup.png');
-
+	background-image: url('/DDR-Project1/images/arrup.png');
     background-size: contain;
-    position: absolute;
+	position: absolute;
     opacity: 80%;
 }
 
 #SLeftArrow{
-    width: 100px;
-    height: 100px;
-    left: 183px;
+    width: 70px;
+	height: 70px;
+	top: 390px;
+    left: 123px;
     margin: 0;
     padding: 0;
 	background-image: url('./images/arrleft.png');
@@ -48,9 +51,10 @@
 }
 
 #SRightArrow{
-    width: 100px;
-    height: 100px;
-    left: 732px;
+    width: 70px;
+	height: 70px;
+	top: 390px;
+    left: 672px;
     margin: 0;
     padding: 0;
 	background-image: url('./images/arrright.png');
@@ -60,6 +64,7 @@
 }
 
 .btnStyle {
+	position: absolute;
 	border-radius: 4px;
 	border: medium solid #000000;
 	background-color:rgb(92, 250, 246);
@@ -68,16 +73,30 @@
 	font-size:20px;
     color: #ffffff;
 	padding: 5px 30px;
-	margin:8px 70px;
+	margin: 8px 70px;
 }
 
 #StartBtn{
-    position: initial;
-    text-shadow: 2px 2px 4px black;
+	left: 270px;
+	position: absolute;
+    top: 215px;
+	/* text-align: center; */
+	text-shadow: 2px 2px 4px black;
 }
 
-#StopBtn{
-    position: fixed;
+.Status {
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+	font-size:17px;
+	color: #ffffff;
+	font-family: "Arial", Impact, Charcoal, sans-serif;
+	left: 290px;
+	position: absolute;
+    top: 270px;
+}
+
+/* #StopBtn{
+    position: absolute;
     left: -50px;
     border-radius: 2px;
 	border: medium solid #000000;
@@ -89,7 +108,7 @@
     text-shadow: 2px 2px 4px black;
 	padding: 2.5px 15px;
 	margin:8px 70px;
-}
+} */
 
 #DownArrow{
     margin: 0;
@@ -126,3 +145,15 @@
     position: absolute;
     opacity: 80%;
 }
+<<<<<<< HEAD
+=======
+
+#dancePoints {
+	font-family: "Arial", Impact, Charcoal, sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	padding: 10px;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px black;
+}
+>>>>>>> 6670087d937ed6d32610f32532cac12a4506849e

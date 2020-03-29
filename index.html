@@ -4,30 +4,30 @@
 
 <head>
 	<meta charset="utf-8">
-
-	<title>DDR Browser Friendly</title>
+	<title>DDR Project 1</title>
 	<link rel="icon" href="./images/clubbackground.jpg" type="image/gif" sizes="16x16">
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="script.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="script.js" type="text/javascript"></script>
 
 
 
 </head>
 
-<body>
+<body scroll="no" style="overflow: hidden">
 	<div id="BackgroundScene">
 		<div id="DanceScoreboard">
 			<div id="GameStopped"><button id="StartBtn" class="btnStyle">Begin Game</button>
-				<div class="Status">Click Begin Game to start</div>
+				<div class="Status">Click Begin Game to start<br>
+					Press SpaceBar to Pause/Stop Game</div>
 			</div>
-			<div id="GameRunning"><button id="StopBtn" class="btnStyle">Stop Game</button>
+			<div id="GameRunning">
 				<div id="Status" class="Status"></div>
-			</div>
-			<div id="dancePoints" class="Points">Points Earned: <div class="OutputText" id="CorrectCount">0</div>
+				<div id="dancePoints" class="Points">Points Earned: <div class="OutputText" id="CorrectCount">0</div>
+				</div>
 			</div>
 		</div>
 		<div id="DanceFloor">
@@ -37,18 +37,22 @@
 				<div id="SUpArrow"></div>
 				<div id="SRightArrow"></div>
 			</div>
-			<div id="MovingArrows"></div>
+			<div id="MovingArrows">
 				<div id="LeftArrow"></div>
 				<div id="DownArrow"></div>
 				<div id="UpArrow"></div>
 				<div id="RightArrow"></div>
+			</div>
 		</div>
 	</div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6670087d937ed6d32610f32532cac12a4506849e
 	<script type="text/javascript">
-		$(function(){
-		   var DDR=new DDRUI(); 
+		$(function () {
+			var DDR = new DDRUI();
 		});
 	</script>
 
