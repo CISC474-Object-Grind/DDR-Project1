@@ -52,16 +52,16 @@ var DDRUI = function () {
 
 		switch (direction) {
 			case "left":
-				xPos = "183px";
+				xPos = "123px";
 				break;
 			case "up":
-				xPos = "549px";
+				xPos = "499px";
 				break;
 			case "down":
-				xPos = "366px";
+				xPos = "306px";
 				break;
 			case "right":
-				xPos = "732px";
+				xPos = "672px";
 				break;
 		}
 
@@ -123,7 +123,7 @@ var DDRUI = function () {
 		for (var i = notes.length - 1; i >= 0; i--) {
 			notes[i].step();
 			// Check for cleanup
-			if (notes[i].image.position().top > 550) {
+			if (notes[i].image.position().top > 445) {
 				notes[i].destroy();
 			}
 		}
@@ -157,28 +157,28 @@ var DDRUI = function () {
 	$(document).keydown(function (event) {
 		for (var i = 0; i < notes.length; i++) {
 			if (event.keyCode == 37 && notes[i].direction == "left") {
-				if (notes[i].image.position().top > 480 && notes[i].image.position().top < 730) {
+				if (notes[i].image.position().top > 385 && notes[i].image.position().top < 500) {
 					console.log("LEFT! " + notes[i].explode());
 					Score++;
 					score();
 				}
 			}
 			if (event.keyCode == 38 && notes[i].direction == "up") {
-				if (notes[i].image.position().top > 480 && notes[i].image.position().top < 730) {
+				if (notes[i].image.position().top > 385 && notes[i].image.position().top < 500) {
 					console.log("UP! " + notes[i].explode());
 					Score++;
 					score();
 				}
 			}
 			if (event.keyCode == 40 && notes[i].direction == "down") {
-				if (notes[i].image.position().top > 480 && notes[i].image.position().top < 730) {
+				if (notes[i].image.position().top > 385 && notes[i].image.position().top < 500) {
 					console.log("DOWN! " + notes[i].explode());
 					Score++;
 					score();
 				}
 			}
 			if (event.keyCode == 39 && notes[i].direction == "right") {
-				if (notes[i].image.position().top > 480 && notes[i].image.position().top < 730) {
+				if (notes[i].image.position().top > 385 && notes[i].image.position().top < 500) {
 					console.log("RIGHT! " + notes[i].explode());
 					Score++;
 					score();
