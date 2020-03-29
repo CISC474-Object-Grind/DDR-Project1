@@ -195,8 +195,9 @@ var DDRUI = function () {
 		} // ends loop
 	}); // ends $(doc).keyup
 
+	// function that will display the score up in the top right of the page
 	function score() {
-		document.querySelector("#dancePoints").textContent = Score;
+		document.querySelector("#dancePoints").textContent = "Points Earned: " + Score;
 	}
 	
 	this.initialize();
