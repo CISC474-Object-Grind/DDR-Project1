@@ -6,7 +6,7 @@
     background-image: url('./images/clubbackground.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
+	position: absolute;
 }
 
 #SDownArrow{
@@ -90,7 +90,7 @@
 	font-size:17px;
 	color: #ffffff;
 	font-family: "Arial", Impact, Charcoal, sans-serif;
-	left: 335px;
+	left: 290px;
 	position: absolute;
     top: 270px;
 }
