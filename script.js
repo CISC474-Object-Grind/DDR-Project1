@@ -27,27 +27,27 @@ var DDRUI = function () {
 			$('#DanceFloor').show();
 			self.running = true;
 			gameStarted = true;
-			
-			if (self.running){
+
+			if (self.running) {
 				song.play();
-			}	
+			}
 		});
-		
+
 		// code below controls stopping the game with space bar
 		$(document).keydown(function (event) {
-			if (event.keyCode == 32){
+			if (event.keyCode == 32) {
 				$('#GameStopped').show();
 				$('#GameRunning').hide();
 				$('#DanceFloor').hide();
 				self.running = false;
-				if (self.running == false){
+				if (self.running == false) {
 					song.pause();
 				}
 			}
 		});
 
 		$(document).keydown(function (event) {
-			if (event.keyCode == 82){
+			if (event.keyCode == 82) {
 				location.reload();
 			}
 		});
@@ -205,6 +205,6 @@ var DDRUI = function () {
 	function score() {
 		document.querySelector("#dancePoints").textContent = "Points Earned: " + Score;
 	}
-	
+
 	this.initialize();
 }
