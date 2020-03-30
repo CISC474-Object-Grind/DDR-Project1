@@ -46,6 +46,12 @@ var DDRUI = function () {
 			}
 		});
 
+		$(document).keydown(function (event) {
+			if (event.keyCode == 82){
+				location.reload();
+			}
+		});
+
 		// $('#StopBtn').on('click', function () {
 		// 	$('#GameStopped').show();
 		// 	$('#GameRunning').hide();

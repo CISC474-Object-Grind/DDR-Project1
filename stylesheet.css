@@ -31,7 +31,6 @@
     margin: 0;
     padding: 0;
 	background-image: url('./images/arrup.png');
-	background-image: url('/DDR-Project1/images/arrup.png');
     background-size: contain;
 	position: absolute;
     opacity: 80%;
@@ -152,5 +151,5 @@
 	font-size:20px;
 	padding: 10px;
 	color: #ffffff;
-	text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px black;
 }
