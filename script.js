@@ -11,7 +11,7 @@ var DDRUI = function () {
 
 	var song = new Audio("./Bad Apple!!.wav");
 	// Determines the speed of notes
-	var arrowSpawnRate = 40;
+	var arrowSpawnRate = 25;
 
 	var self = this;
 	this.game = undefined;
@@ -131,7 +131,7 @@ var DDRUI = function () {
 	function render() {
 		if (frame++ % arrowSpawnRate === 0) {
 			randomGen();
-		}
+		};
 
 		// Animate arrows showering down //
 		for (var i = notes.length - 1; i >= 0; i--) {
